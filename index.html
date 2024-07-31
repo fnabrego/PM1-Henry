@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta:dom></meta:dom>
+    <link rel="stylesheet" href="styles/reset.css"/>
+    <link rel="stylesheet" href="styles/styles.css"/>
+    <title>Mi Proyecto Henry</title>
+</head>
+<body>
+    <header>
+        <h1>Proyecto M1</h1>
+        <nav>
+            <ul>
+                <li>Sobre Mi</li>
+                <li>Mis Tecnologías</li>
+                <li>Mis Actividades</li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <section>
+        <h2>Sobre Mi</h2>
+        <p>
+            Hola, mi nombre es Franco. Estoy buscando un nuevo camino profesional con tecnologías de la información.
+            Estoy aprendiendo a programar en Henry y este es mi primer proyecto individual.
+        </p>
+    </section>
+    <section id="favTech">
+        <h2>Mis Tecnologías Favoritas</h2>
+        <article>
+            <ul>
+                <li>
+                    <div>
+                        <img src="https://icones.pro/wp-content/uploads/2021/05/icone-html-bleue.png" alt="image-HTML" title="HTML">
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="https://icon-library.com/images/java-icon-png/java-icon-png-15.jpg" alt="image-JAVA" title="JAVA">
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src= "https://pngimg.com/uploads/mysql/mysql_PNG31.png" alt="image-MySQL" title="MySQL">
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="https://pluspng.com/img-png/logo-javascript-png-javascript-tutorials-400.png" alt="image-JavaScript" title="JavaScript">
+                    </div>
+                </li>
+            </ul>
+        </article>
+    </section>
+    <section id="inpActv">
+        <h2>Mis Actividades Favoritas</h2>
+        <form id="form">
+                <div>
+                    <label for="tittle"> Titulo: </label>
+                    <input type="text" id="tittle"/>
+                </div>
+                <div>
+                    <label for="description"> Descripcion: </label>
+                    <textarea
+                        name="description"
+                        id="description"
+                        rows="2"
+                        placeholder="Describa la actividad"></textarea>
+                <!-- <div>
+                    <label for="description"> Descripcion: </label>
+                    <input type="text" id="description"/>
+                </div> -->
+                </div>
+                <div>
+                    <label for="imgUrl"> Link: </label>
+                    <input type="imgUrl"
+                    id="imgUrl"
+                    placeholder="https://google.com"/>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar" id="add"/>
+                </div>
+        </form>
+        <!-- <span id="noActv">Sin actividades</span> -->
+        <div id="activList" class="card"></div>
+    </section>
+</main>
+<footer>
+    <p>Derechos Reservados</p>
+    <p>Seguime en las redes!</p>
+    <ul>
+        <li><a href="https://github.com/fnabrego">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/franco-nicolas-abrego/">LinkedIn</a></li>
+    </ul>
+</footer>
+<script src="./scripts/index.js"></script>
+</body>
+</html>

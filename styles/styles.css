@@ -1,0 +1,150 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(245, 229, 223);
+    color: #333;
+    margin: 5px;
+    margin-top: 5rem;
+}
+header {
+    width: 100vw;
+    padding: 10px;
+/*     text-align: center;
+ */    background-color: #b9a4a4;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+/*     box-shadow: 1px 1px 10px rgb(0, 255, 221); */
+}
+#logo {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+#logo img{
+    width: 50px;
+    height: auto;
+}
+h1 {
+    text-align: center;
+    font-size: large;
+    text-decoration-line: underline;
+}
+nav{
+    width: 100%;
+}
+ul {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+li {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    cursor: pointer;
+}
+li:hover {
+    color: rgb(0, 0, 0);
+  }
+h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 7px;
+    padding: auto;
+    padding-left: 1em;
+}
+h3{
+    text-decoration: underline;
+    text-decoration-style: solid;
+    border: 2px solid rgba(157, 41, 41, 0);
+    border-radius: 7px;
+    padding: auto;
+    padding-left: 1em;
+}
+section {
+    background-color: rgb(199, 198, 198);
+    margin: 1rem;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    box-shadow: 1px 1px 10px rgb(255, 179, 0);
+    color: rgba(45, 45, 45, 0.809);
+    border-radius: 20px
+}
+#favTech{
+    background-color: rgb(255, 178, 131);
+    display: flex;
+    flex-direction: column;
+}
+#inpActv{
+    form {
+        align-items: center;
+    }
+    
+}
+footer{
+    bottom: 0em;
+}
+/* .preview {
+    size-adjust: 80%;
+} */
+
+img {
+    width: 5rem;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+img:hover{
+    transform: scale(1.2);
+}
+
+form div{
+    display: flex;
+    margin: 1rem;
+    align-items: left;
+
+}
+input, textarea {
+    background-color: rgb(176, 167, 167);
+}
+#add {
+    border-radius: 5px;
+}
+a{
+    font-size: large;
+    font-style: italic;
+    text-overflow: clip;
+}
+a:hover{
+    text-decoration-line:underline;
+    font-style: oblique;
+}
+#todasLasActividades {
+    margin-top: 20px;
+}
+
+#activList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: rgb(60, 60, 60);
+    border-radius: 10px;
+    margin: 5px;
+  }
+
+  #activList {
+    background-color: rgb(68, 68, 68);
+    margin: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    text-align: center;
+  }
